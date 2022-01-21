@@ -1,0 +1,16 @@
+.container{
+    max-width: 900px;
+    margin: auto;
+
+}
+ul.menu{
+    list-style: none;
+}
+ul.menu li{
+    display: inline;
+    padding: 15px;
+}
+
+ul.menu a{
+    text-decoration: none;
+}
