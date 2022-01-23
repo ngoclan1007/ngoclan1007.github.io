@@ -4,7 +4,7 @@
 .container{
     max-width: 1000px;
     margin: auto;   
-    background-color: darkgreen;
+    background-color: rgb(50, 241, 50);
 }
 h1{
     text-align: center;
