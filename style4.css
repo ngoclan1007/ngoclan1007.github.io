@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0px;
+}
+.container{
+    max-width: 1000px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+}
+h1{
+    text-align: center;
+}
+.box{
+    flex-basis: calc((100% - 90px)/3);
+    margin: 15px;
+}
+.box>img{
+    max-width: 100%;
+}
