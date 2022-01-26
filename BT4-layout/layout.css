@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    margin: 0;
+}
+h1{
+    text-align: center;
+}
+.layout1{
+    height: 400px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.layout1-item1{
+    width: 60%;
+    background-color: cadetblue;
+}
+.layout1-item2{
+    width: 40%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.layout1-item2-box1{
+    width: 100%;
+    height: 200px;
+    background-color: chocolate;
+}
+.layout1-item2-box2{
+    width: 100%;
+    height: 200px;
+    background-color: crimson;
+}
+
+/* layout 2 */
+
+.layout2{
+    height: 400px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.layout2-item1{
+    width: 60%;
+    background-color: cadetblue;
+}
+.layout2-item2{
+    width: 40%;
+    /* background-color: chartreuse; */
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    padding-left: 15px;
+}
+.layout2-item2-box1{
+    width: 100%;
+    height: 200px;
+    background-color: chocolate;
+}
+.layout2-item2-box2{
+    width: 100%;
+    height: 200px;
+    background-color: crimson;
+}
+
+/* layout3 */
+.layout3{
+    height: 400px;
+    background-color: burlywood;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.layout3-item1{
+    width: 33.333%;
+    background-color: cadetblue;
+}
+.layout3-item2{
+    width: 33.333%;
+    background-color: darkolivegreen;
+}
+.layout3-item3{
+    width: 33.333%;
+    background-color: crimson;
+}
+/* layout4 */
+.layout4{
+    height: 400px;
+    /* background-color: burlywood; */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 20px;
+}
+.layout4-item1{
+    width: calc((100% - 30px) / 3);
+    background-color: cadetblue;
+    margin-right: 10px;
+}
+.layout4-item2{
+    width: calc((100% - 30px) / 3);
+    background-color: darkolivegreen;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.layout4-item3{
+    width: calc((100% - 30px) / 3);
+    background-color: crimson;
+    margin-left: 10px;
+}
