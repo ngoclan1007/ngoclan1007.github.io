@@ -20,6 +20,7 @@ body{
  padding-top: 30px;
  margin-top: 0px;
  font-weight: 500;
+ font-size: 24px;
 }
 
 .container{
@@ -51,6 +52,7 @@ a img{
 h2{
     padding-left: 15px;
     font-weight: normal;
+    font-size: 18px;
 }
 .content{
     padding-left: 15px;
