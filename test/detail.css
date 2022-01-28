@@ -58,18 +58,23 @@ h1{
     /* flex-direction: row; */
 }
 .detail{
-    flex-basis: calc((100% - 100px) / 2);
-    margin: 50px;
-    margin-left: 0px;
+    flex-basis: calc((100% - 80px) / 2);
+    margin: 40px;
     border-radius: 5px;
     background-color: #FDFDFD;
     box-shadow: 0 2px 3px 1px rgb(0 0 0 / 15%);
     margin-bottom: 30px;
     margin-top: 30px;
 }
+.detail-left{
+    margin-left: 0px;
+}
+.detail-right{
+    margin-right: 0px;
+}
 .detail img{
     width: 100%;
-    height: 86%;
+    height: 80%;
     overflow: hidden;
     border-top-right-radius: 5px;
     border-top-left-radius: 5px;
