@@ -58,8 +58,8 @@ h1{
     /* flex-direction: row; */
 }
 .detail{
-    flex-basis: calc((100% - 80px) / 2);
-    margin: 40px;
+    flex-basis: calc((100% - 60px) / 2);
+    margin: 30px;
     border-radius: 5px;
     background-color: #FDFDFD;
     box-shadow: 0 2px 3px 1px rgb(0 0 0 / 15%);
